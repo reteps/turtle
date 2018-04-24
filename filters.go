@@ -47,3 +47,8 @@ func search(emojis []*Emoji, s string) []*Emoji {
 		return strings.Contains(e.Name, s)
 	})
 }
+func searchStartingWith(emojis []*Emoji, s string) []*Emoji {
+	return filter(emojis, func(e *Emoji) bool {
+		return strings.Startswith(e.Name, s)
+	})
+}
