@@ -31,7 +31,16 @@ func keyword(emojis []*Emoji, k string) []*Emoji {
 		return false
 	})
 }
-
+func keyword_excluding_flags(emojis []*Emoji, k string) []*Emoji {
+	return filter(emojis, func(e *Emoji) bool {
+		for _, keyword := range e.Keywords {
+			if keyword == k && e.Category != "flags" {
+				return true
+			}
+		}
+		return false
+	})
+}
 // search Emoji in a slice by Name
 func search(emojis []*Emoji, s string) []*Emoji {
 	return filter(emojis, func(e *Emoji) bool {
