@@ -13,6 +13,9 @@ func init() {
 }
 
 // Search emojis by a name
+func KeywordExcludingFlags(k string) []*Emoji {
+	return keywordExcludingFlags(emojis, k)
+}
 func Search(s string) []*Emoji {
 	return search(emojis, s)
 }
