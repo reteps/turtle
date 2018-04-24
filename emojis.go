@@ -91,7 +91,7 @@ var emojis = []*Emoji{
 		Name:     "blush",
 		Category: "people",
 		Char:     "😊",
-		Keywords: []string{"face", "smile", "happy", "flushed", "crush", "embarrassed", "shy", "joy"},
+		Keywords: []string{"face", "smile", "happy", "flushed", "crush", "embarrassed", "shy", "joy","you"},
 	},
 	{
 		Name:     "boot",
@@ -499,7 +499,7 @@ var emojis = []*Emoji{
 		Name:     "family_woman_woman_boy_boy",
 		Category: "people",
 		Char:     "👩‍👩‍👦‍👦",
-		Keywords: []string{"home", "parents", "people", "human", "children"},
+		Keywords: []string{"home", "parents", "people", "human", "children","they","we"},
 	},
 	{
 		Name:     "family_woman_woman_girl",
@@ -619,7 +619,7 @@ var emojis = []*Emoji{
 		Name:     "grinning",
 		Category: "people",
 		Char:     "😀",
-		Keywords: []string{"face", "smile", "happy", "joy", ":D", "grin"},
+		Keywords: []string{"face", "smile", "happy", "joy", ":D", "grin","i"},
 	},
 	{
 		Name:     "guardsman",
@@ -1117,7 +1117,7 @@ var emojis = []*Emoji{
 		Name:     "point_right",
 		Category: "people",
 		Char:     "👉",
-		Keywords: []string{"fingers", "hand", "direction", "right"},
+		Keywords: []string{"fingers", "hand", "direction", "right","am","is","are"},
 	},
 	{
 		Name:     "point_up",
@@ -1231,7 +1231,7 @@ var emojis = []*Emoji{
 		Name:     "raised_hands",
 		Category: "people",
 		Char:     "🙌",
-		Keywords: []string{"gesture", "hooray", "yea", "celebration", "hands"},
+		Keywords: []string{"gesture", "hooray", "yea", "celebration", "hands","thanks"},
 	},
 	{
 		Name:     "raising_hand_man",
@@ -1471,13 +1471,13 @@ var emojis = []*Emoji{
 		Name:     "tipping_hand_man",
 		Category: "people",
 		Char:     "💁‍♂️",
-		Keywords: []string{"male", "boy", "man", "human", "information"},
+		Keywords: []string{"male", "boy", "man", "human", "information","he"},
 	},
 	{
 		Name:     "tipping_hand_woman",
 		Category: "people",
 		Char:     "💁",
-		Keywords: []string{"female", "girl", "woman", "human", "information"},
+		Keywords: []string{"female", "girl", "woman", "human", "information","she"},
 	},
 	{
 		Name:     "tired_face",
